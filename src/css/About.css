@@ -1,0 +1,36 @@
+.about-container {
+  margin-bottom: 30px;
+}
+
+.about-container2 {
+  margin-bottom: 30px;
+}
+
+.about-heading {
+  padding: 15px 0;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #4831d4;
+  background-color: #fff;
+}
+
+.about-desc {
+  font-family: "Lora", serif;
+  margin-top: 1rem;
+  color: #fff;
+  display: flex;
+  flex-direction: wrap;
+  font-size: 20px;
+}
+.about-container img {
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.about-container2 img {
+  margin-bottom: 30px;
+  width: 50%;
+  aspect-ratio: 1.9;
+  margin-right: 5%;
+}

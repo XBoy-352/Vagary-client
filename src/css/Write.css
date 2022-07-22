@@ -1,0 +1,124 @@
+.write-img {
+  width: 100%;
+  height: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.write-form {
+  position: relative;
+}
+
+.write-form-group {
+  margin-left: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.hide-scroll {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.write-icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.write-input {
+  width: 80%;
+  background: none;
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  color: #fff;
+}
+
+.write-input:focus {
+  outline: none;
+}
+
+.write-text {
+  margin-top: 20px;
+  height: 70vh;
+  width: 100%;
+  font-size: 20px;
+  color: #fbeec1;
+  overflow-y: scroll;
+  box-sizing: content-box;
+  padding-left: 0;
+}
+
+.write-button {
+  position: absolute;
+  top: 18px;
+  right: 2.5%;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropbtn {
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  margin-left: 4%;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content div:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(3, 144, 144);
+}
+
+.category {
+  width: 100px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  margin: 0 2px;
+  color: #fff;
+}
