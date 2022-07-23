@@ -10,7 +10,7 @@ function Posts() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [post, setPost] = useState();
-  const PF = "https://vagary-backend.herokuapp.com/images/";
+  const PF = "https://vagary-project.herokuapp.com/images/";
   const { user } = useAuth();
   const [error, setError] = useState("");
   const navigate = useNavigate();

@@ -7,7 +7,7 @@ import { useAuth } from "../contexts/AuthContext";
 function Profile() {
   const { hideNavbar } = useNavbar();
   const { logout, user } = useAuth();
-  const PF = "https://vagary-backend.herokuapp.com/images/";
+  const PF = "https://vagary-project.herokuapp.com/images/";
 
   async function handleLogout() {
     await logout();

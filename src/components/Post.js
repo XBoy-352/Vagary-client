@@ -3,7 +3,7 @@ import "../css/Posts.css";
 import { Link } from "react-router-dom";
 
 function Post(post) {
-  const PF = "https://vagary-backend.herokuapp.com/images/";
+  const PF = "https://vagary-project.herokuapp.com/images/";
 
   return (
     <div className="post-container">

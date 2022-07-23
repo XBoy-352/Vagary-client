@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 function Profile() {
   const { hideNavbar } = useNavbar();
-  const PF = "https://vagary-backend.herokuapp.com/images/";
+  const PF = "https://vagary-project.herokuapp.com/images/";
   const { user, setUser } = useAuth();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
